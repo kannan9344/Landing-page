@@ -11,9 +11,9 @@ const Modal = ({ activeTab, setActivetab, toggle }) => {
     >
       <div className="d-flex form gap-3 p-3 p-sm-0 w-100 bg-white modal-container position-absolute">
         {activeTab == 0 ? (
-          <SignIn setActivetab={setActivetab} activeTab={activeTab} />
+          <SignInModal setActivetab={setActivetab} activeTab={activeTab} />
         ) : (
-          <JoinIn setActivetab={setActivetab} activeTab={activeTab} />
+          <JoinInModal setActivetab={setActivetab} activeTab={activeTab} />
         )}
       </div>
     </div>

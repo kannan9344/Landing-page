@@ -69,6 +69,12 @@ main {
 .remember {
   color: #939ca3;
 }
+.eye input{
+  background-color: #ced4da;
+  color: #939ca3;
+  font-size: 13px;
+  border-radius: 4px;
+}
 .eye i {
   right: 10px;
   top: 13px;
