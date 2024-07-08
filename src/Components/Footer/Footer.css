@@ -1,0 +1,24 @@
+.footer-container > .row > .col strong{
+    font-size: 13px;
+}
+.footer-container .row .col ul li{
+    list-style-type: none;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.footer-container .row .col .icons .icon{
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg);
+    color: #939ca3;
+}
+.footer-container .row .col .form-input{
+    font-size: 12px;
+}
+.copy-right{
+    background-color: var(--bg);
+    font-size: 13px;
+}
+.footer-container .row {
+    padding: 30px 0px;
+}

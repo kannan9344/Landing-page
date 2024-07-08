@@ -1,0 +1,66 @@
+.testimonial-container{
+    padding: 60px 0px;
+}
+.testimonial-container .container {
+  background-color: var(--bg);
+}
+.testi-header i {
+  width: 25px;
+  height: 25px;
+  background-color: var(--main);
+  font-size: 13px;
+  line-height: 25px;
+}
+.testi-header h3 {
+  font-size: 15px;
+}
+.testi-header ~ p {
+  font-size: 13px;
+  margin: 15px 0px;
+}
+.bar-container {
+  background-color: #ccc1da;
+}
+.bar {
+  width: 550px;
+  height: 2px;
+}
+.bar ~ small {
+  font-size: 11px;
+}
+.fa-play {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 10px;
+  color: var(--main);
+}
+.user-image img {
+  width: 30px;
+}
+.user-image i {
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+}
+.image img {
+  width: 50px;
+}
+.image ~ div h3 {
+  font-size: 15px;
+  margin: 0;
+  color: var(--main);
+}
+.image ~ div small {
+  font-size: 11px;
+  color: #0096c8;
+}
+@media (max-width: 576px) { 
+  .bar {
+    width: 130px;
+  }
+  .testi-header ~ p {
+    font-size: 12px;
+  }
+
+}

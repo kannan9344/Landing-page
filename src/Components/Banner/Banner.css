@@ -1,0 +1,27 @@
+.banner-container{
+    background-color: #F7FDFF;
+}
+.container div h2{
+    font-size: 25px;
+}
+.container div h2 span:nth-child(1){
+    color: var(--main);
+}
+.container div h2 span:nth-child(2){
+    color: #0096c8;
+}
+.banner-container  .container div .btn{
+    background-color: var(--main);
+}
+.banner-btn {
+    width: 100px;
+    background-color: var(--main);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+@media (max-width: 576px) {
+    .container div h2{
+        font-size: 20px;
+    }
+  }

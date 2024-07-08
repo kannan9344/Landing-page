@@ -1,0 +1,68 @@
+
+
+.logo {
+  width: 160px;
+}
+
+.form-input {
+  background-color: var(--bg);
+  outline: none;
+  font-size: 13px;
+  padding: 5px 15px;
+}
+.search-container {
+  background-color: var(--main);
+  font-size: 11px;
+}
+.icon-container {
+  width: 20px;
+  height: 20px;
+  background-color: var(--main);
+}
+.icon-container i,
+.icons i {
+  font-size: 10px;
+}
+.icons strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+.icon {
+  color: var(--main);
+  font-size: 13px;
+}
+
+.menu-icons i {
+  font-size: 13px;
+  color: var(--main);
+}
+.sign-in-btn  {
+  width: 100px;
+  border: 1px solid var(--main);
+  color: var(--main);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dropdown{
+  width: 200px;
+  top: 30px;
+  display: none;
+}
+.dropdown li{
+  list-style-type: none;
+  font-size: 13px;
+  padding: 7px 10px;
+  color: #939ca3;
+}
+.drop-down-parent{
+  cursor: pointer;
+}
+.drop-down-parent:hover .dropdown{
+  display: block;
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 120px;
+  }
+}

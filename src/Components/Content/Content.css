@@ -1,0 +1,131 @@
+main {
+  height: 90vh;
+  padding: 20px 25px;
+  padding-top: 50px;
+  background-color: var(--bg);
+}
+.col h1 {
+  font-size: 30px;
+}
+.col p {
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: justify;
+}
+.col h1 span:nth-child(1) {
+  color: #0096c8;
+}
+.col h1 span:nth-child(2) {
+  color: var(--main);
+}
+.col-sm-4 form div h3 {
+  font-size: 15px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.col-sm-4 form div h3.active {
+  color: var(--main);
+  border-bottom: 1px solid var(--main);
+}
+.col-sm-4 form div h3.unactive{
+  color: #ced4da;
+}
+.col-sm-4 form input {
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 0px 15px;
+  font-size: 12px;
+  outline: none;
+}
+.btns div {
+  height: 40px;
+  border: 1px solid var(--main);
+  padding: 5px 30px;
+  border-radius: 4px;
+  margin: 12px 0px;
+}
+.btns div strong {
+  font-size: 12px;
+  padding-left: 55px;
+}
+.btns div img {
+  width: 18px;
+}
+.line {
+  height: 1px;
+  background-color: #ced4da;
+}
+.content-image {
+  transform: translateY(-105px);
+}
+.form .form-item {
+  flex: none;
+}
+.connect,
+.remember {
+  font-size: 11px;
+}
+.remember {
+  color: #939ca3;
+}
+.eye i {
+  right: 10px;
+  top: 13px;
+  font-size: 13px;
+}
+.col-sm-4 form label {
+  font-size: 12px;
+}
+.fa-lock {
+  color: #939ca3;
+  font-size: 12px;
+}
+.message {
+  font-size: 10px;
+  color: #ced4da;
+}
+.fa-lock ~ div {
+  font-size: 12px;
+}
+.continue-btn,
+.join-btn {
+  border-color: #000 !important;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+.join-btn {
+  background-color: var(--main);
+}
+.modal-container{
+  top: 42px;
+  right: 0;
+}
+@media (max-width: 576px) {
+  main {
+    height: auto;
+    padding: 20px 10px;
+  }
+  .col h1 {
+    font-size: 20px;
+  }
+  .btns div {
+    padding: 5px 15px;
+  }
+  .btns div strong {
+    font-size: 11px;
+    padding-left: 40px;
+  }
+  .content-image {
+    width: 100%;
+    height: 150px;
+    transform: translateY(30px);
+  }
+  .col-sm-4 form div h3 {
+    font-size: 14px;
+  }
+}
