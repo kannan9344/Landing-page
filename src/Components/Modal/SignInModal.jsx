@@ -21,11 +21,11 @@ const SignInModal = ({ activeTab, setActivetab }) => {
       </div>
       <div>
         <div className="position-relative eye">
-          <input type="text" placeholder="Email" className="w-100" />
+          <input type="text" placeholder="Email" className="w-100 border-0" />
           <input
             type="password"
             placeholder="Password"
-            className="w-100 bg-white border"
+            className="w-100 border-0"
           />
           <i className="fa-solid fa-eye-slash position-absolute right-0"></i>
         </div>

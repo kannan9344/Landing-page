@@ -1,7 +1,7 @@
 import React from "react";
-import SignIn from "../Content/SignIn";
-import JoinIn from "../Content/JoinIn";
 import "../Content/Content.css";
+import SignInModal from "./SignInModal";
+import JoinInModal from "./JoinInModal";
 const Modal = ({ activeTab, setActivetab, toggle }) => {
   return (
     <div

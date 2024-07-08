@@ -6,7 +6,7 @@ const Header = ({ toggle, setToggle }) => {
   const setStatus=()=>setToggle(!toggle)
   return (
     <header>
-      <nav className="navbar p-2 shadow-sm">
+      <nav className="navbar py-3 p-sm-2 shadow-sm">
         <div className="container">
           <img src={Logo} className="logo" alt="" />
           <form className="d-none d-sm-flex">

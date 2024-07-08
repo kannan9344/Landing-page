@@ -1,5 +1,7 @@
 import React from "react";
 import "../Content/Content.css";
+import facebookIcon from "/src/assets/facebook.png";
+import googleIcon from "/src/assets/Google.png";
 const JoinInModal = ({ activeTab, setActivetab }) => {
   return (
     <form className="form-item w-100">
@@ -19,10 +21,10 @@ const JoinInModal = ({ activeTab, setActivetab }) => {
       </div>
 
       <div>
-        <input type="text" placeholder="Email" className="w-100" />
+        
         <div className="position-relative eye">
-          <input type="text" placeholder="Email" className="w-100"  />
-          <input type="password" placeholder="Password" className="w-100" />
+          <input type="text" placeholder="Email" className="w-100 border-0"  />
+          <input type="password" placeholder="Password" className="w-100 border-0" />
           <i className="fa-solid fa-eye position-absolute right-0"></i>
         </div>
       </div>
