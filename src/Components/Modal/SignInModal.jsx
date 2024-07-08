@@ -40,7 +40,7 @@ const SignInModal = ({ activeTab, setActivetab }) => {
           <div>Forget password ?</div>
         </div>
       </div>
-      <div className="continue-btn text-center w-100 border my-1 border-1">
+      <div className="join-btn text-center w-100 border my-1 border-1">
         Continue
       </div>
       <div className="d-flex align-items-center py-2">
